@@ -1,0 +1,18 @@
+{
+  "name": "line-express-userlogger",
+  "version": "1.0.1",
+  "description": "",
+  "main": "userlogger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
