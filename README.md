@@ -1,7 +1,9 @@
 # line-express-userlogger
 
-A express.js middleware can auto record user information in LINE messages API nodejs-sdk.
-This logger will trigger by user follow your bot, and delete user data when user unfollow your bot.
+A express.js middleware can automatically record user information in LINE messages API nodejs-sdk.
+This logger will be triggered by user with following event and unfollowing event.
+
+(When user unfollows your bot, DB will clean his or her data.)
 
 # Usage
 
