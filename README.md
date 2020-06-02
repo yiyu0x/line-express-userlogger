@@ -7,7 +7,7 @@ This logger will be triggered by user with following event and unfollowing event
 
 # Usage
 
-Run mongoDB service in docker, make sure run at project root directory:
+Run mongoDB service in docker and make sure it run at project root directory:
 
 `docker run --rm -d --name mongo -p 27017:27017 -v $PWD/db_data:/data/db mongo`
 
@@ -31,7 +31,7 @@ app.post('/webhook', line.middleware(config), userlogger, (req, res) => {
 });
 ```
 
-When express.js server start, make sure `Connected to MongoDB` string show in console. 
+When express.js server start, make sure `Connected to MongoDB` string showing in console. 
 
 # DB schema
 
